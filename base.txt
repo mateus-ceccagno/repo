@@ -1,0 +1,63 @@
+1. No contexto...
+I. Stubs 
+II. Testes caixa-preta e
+V. O Apache JMeter
+
+2. Ao longo do desenvolvimento...
+a) Qual é o valor da complexidade ciclomática? Igual a 4
+cc = arestas – nós + 2 => 9 – 7 + 2 = 4
+
+b) Quais são os caminhos independentes?
+C1 = <1,2,3,4,5,6,7>
+C2 = <1,3,5,7>
+C3 = <1,2,3,5,7>
+C4 = <1,3,4,5,6,7>
+
+3. Sobre testes de software...
+III. Os testes de integração
+
+4. Julgue os seguintes itens...
+II. Na fase de teste de unidade
+III. Na fase de teste de integração, o
+IV. Critérios com base na c
+
+5. Sobre testes de regressão:
+III. Testes de regressão podem estar relac
+IV. teste de regressão deve conter um
+
+6. A empresa 5ª fase de...
+a) Dados de entrada da classe válida?
+Quaisquer dados de entrada entre 1 e 5
+poderiam fazer parte desta classe
+
+b) Dados de entrada da classe 1 inválida?
+Nesta classe deveríamos testar um dos limites, 
+por exemplo o inferior. Neste caso,
+poderíamos criar um conjunto de testes com os 
+seguintes valores: 0 ou -1 e também 1 para
+testar o limite do intervalo.
+
+c) Dados de entrada da classe 2 inválida?
+Nesta classe deveríamos testar um dos limites,
+por exemplo o superior. Neste caso,
+poderíamos criar um conjunto
+
+7. Uma equipe está realizand...
+a) No contexto apresentado, essa equipe 
+está realizando testes em nível de?
+Há dos tipos de teste: unidade e integração
+
+b) Justifique a sua resposta
+Unidade: testes com base nos códigos-fonte
+ de um sistema. Os testes envolvem a
+verificação de diversos componentes individualmente
+Integração: componentes individualmente, 
+bem como das interfaces de comunicação entre
+os componentes
+
+8. Considere o programa abaixo que apresenta o
+a) determine através da forma simplificada e do
+grafo de fluxo de programa o valor da
+complexidade ciclomática?
+Simplificada: 1(ENQ) + 3(SE) + 1 = 5
+Grafo de fluxo de programa = 5
